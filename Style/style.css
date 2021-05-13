@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgb(9, 130, 186);
+    box-sizing: border-box;
+}
+main {
+    
+    width: 60%;
+    background-color: darkslategrey;
+    padding: 30px;
+    margin: auto;
+ margin-top: 30%;
+    align-items: center;
+    align-content: center;
+    border: 1px;
+    background-color: rgb(9, 43, 77);
+    color: white;
+}
+main h1{
+    padding: 10px;
+    margin-top: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+.palabras{
+    padding: 0px;
+    margin-top: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.boton{
+
+    align-content: center;
+    align-items: center;
+
+    box-sizing: content-box;
+   border-radius: 5px;
+    
+   width: 30%;
+    background-color: darkcyan;
+    border-radius: 3px;
+    padding: 12px;
+    color: white;
+    font-size: 10px;
+    margin-left: 215px;
+}
+.cajainfo{
+    margin-right: 100px;
+    width: 90%;
+padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 165px;
+    text-align: center;
+   margin: 10px;
+    font-size: 16px;
+}
