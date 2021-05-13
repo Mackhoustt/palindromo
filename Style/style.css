@@ -42,13 +42,13 @@ main h1{
     box-sizing: content-box;
    border-radius: 5px;
     
-   width: 30%;
+   width: 30vh;
     background-color: darkcyan;
     border-radius: 3px;
     padding: 12px;
     color: white;
     font-size: 10px;
-    margin-left: 215px;
+    margin-left: 45vh;
 }
 .cajainfo{
     margin-right: 100px;

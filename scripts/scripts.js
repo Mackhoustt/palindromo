@@ -2,9 +2,10 @@ var palabra= document.getElementById("Info")
 var escrito;
 var mensaje= document.getElementById("mensaje");
 function Palindromo(){
-  
+     var verificar = false || true; 
+
     if (longitud==0){
-        return false;
+       verificar= false;
     }
 
     else{ 
@@ -12,8 +13,7 @@ function Palindromo(){
         var texto= info.toLowerCase().replace(/[\W_]/g, "");
          var longitud = texto.length;
         var ultimaLetra= texto.length -1;
-         var verificar = false || true; 
-
+      
     for(var i=0; i<ultimaLetra; i++){
         if (texto[i] == texto[ultimaLetra]){
            verificar = true;
